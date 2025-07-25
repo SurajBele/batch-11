@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: my-rset
+  labels:
+    app: my-replicas
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: my-app2
+    matchExpressions:
+      - {key: app, operator: In, values: [my-app2] }
+  template:
+    metadata:
+      name: my-pod2
+      labels:
+        app: my-app2
+        env: devops
+    spec:
+      containers:
+        - name: nginx
+          image: nginx
+          ports:
+          - name: http
+            containerPort: 80
