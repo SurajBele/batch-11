@@ -16,3 +16,27 @@ spec:
 
 
 
+...
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: pod2-app
+  labels:
+    app: pod2-app
+    env: devops
+spec:
+  containers:
+    - name: pod2-app
+      image: nginx
+      ports:
+       - name: nginx-port
+         containerPort: 80
+
+    - name: pod2-app2
+      image: httpd
+      ports:
+       - name: httpd
+         containerPort: 80
+---
+
+
