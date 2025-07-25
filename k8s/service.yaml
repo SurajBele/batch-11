@@ -23,10 +23,10 @@ spec:
   type: LoadBalancer 
   selector:
     app: pod2-app
-    ports:
-      - name: httpd
-        protocol: TCP
-        port: 80
-        targetPort: 80
+  ports:
+    - name: httpd
+      protocol: TCP
+      port: 80
+      targetPort: 80
 
 
