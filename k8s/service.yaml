@@ -20,14 +20,14 @@ kind: Service
 metadata:
   name: pod2-app-svc
 spec:
- type: LoadBalancer 
- selector:
-   name: pod2-app
-   app: pod2-app
-   ports:
-     - name: httpd
-       protocol: TCP
-       port: 80
-       targetPort: 80
+  type: LoadBalancer 
+  selector:
+    name: pod2-app
+    app: pod2-app
+    ports:
+      - name: httpd
+        protocol: TCP
+        port: 80
+        targetPort: 80
 
 
