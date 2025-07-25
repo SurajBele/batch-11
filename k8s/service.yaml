@@ -22,7 +22,6 @@ metadata:
 spec:
   type: LoadBalancer 
   selector:
-    name: pod2-app
     app: pod2-app
     ports:
       - name: httpd
