@@ -6,7 +6,6 @@ metadata:
     name: my-daemon
     app: my-daemon
 spec:
-replicas: 3
   selector:
     matchLabels:
       app: nginx
