@@ -26,4 +26,5 @@ spec:
           env:
             valueFrom:
                ConfigMapKeyRef:
+                  
                   key: password
