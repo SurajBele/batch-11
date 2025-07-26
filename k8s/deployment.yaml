@@ -6,9 +6,7 @@ metadata:
     app: nginx
 spec:
   strategy:
-   type: RollingUpdate
-   rollingUpdate:
-     maxUnavailable: 1
+   type: Recreate
   replicas: 3
   selector:
     matchLabels:
@@ -20,6 +18,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx
+        image: nginx:1.14.2
         ports:
         - containerPort: 80
