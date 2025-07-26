@@ -3,4 +3,7 @@ kind: DaemonSet
 metadata:
   name: my-daemon
   labels:
-    name: my
+    name: my-daemon
+    app: my-daemon
+spec:
+
