@@ -24,4 +24,5 @@ spec:
           - name: db
             containerPort: 3306
           env:
-            valu
+            valueFrom:
+               config
