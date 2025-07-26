@@ -1,6 +1,10 @@
 apiVersion: v1
 kind: ConfigMap
-metadata: 
+metadata:
+  name: my-variables
 data:
-key:value
-password: admin123
+  username: admin
+  password: passw1234
+  localusser: suraj
+  name: MARIADB_ROOT_PASSWORD
+  value: suraj
