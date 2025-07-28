@@ -4,7 +4,7 @@ metadata:
   name: my-variables
 data:
   username: admin
-  password: passw1234
+  password: admin123
   localusser: suraj
   name: MARIADB_ROOT_PASSWORD
   value: suraj
