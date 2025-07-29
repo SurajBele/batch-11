@@ -8,7 +8,7 @@ spec:
       image: nginx
       volumeMounts:
       - mountPath: "/usr/share/nginx/html/"
-        name: mypd
+        name: mypv
   volumes:
     - name: mypv
       persistentVolumeClaim:
