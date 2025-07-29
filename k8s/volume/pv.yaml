@@ -25,7 +25,8 @@ spec:
   accessModes: 
     - ReadWriteOnce
   persistentVolumeReclaimPolicy: Retain
-  awsEbs
+  awsElasticBlockstore:
+    volumeID
   hostPath:
     path: /mnt/data
 
