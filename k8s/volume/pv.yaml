@@ -13,20 +13,6 @@ spec:
   hostPath:
     path: /mnt/data
 
-# ---
-# apiVersion: v1
-# kind: PersistentVolume
-# metadata:
-#   name: mypv
-# spec:
-#   capacity:
-#     storage: 10G
-#   volumeMode: Filesystem
-#   accessModes: 
-#     - ReadWriteOnce
-#   persistentVolumeReclaimPolicy: Retain
-#   awsElasticBlockstore:
-#     volumeID: ID
-#     fsType: ext4
+
   
 
