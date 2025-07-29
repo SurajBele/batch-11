@@ -27,6 +27,6 @@ spec:
   persistentVolumeReclaimPolicy: Retain
   awsElasticBlockstore:
     volumeID: ID
-    fsty
+    fsType: ext4
     path: /mnt/data
 
