@@ -28,5 +28,5 @@ spec:
   awsElasticBlockstore:
     volumeID: ID
     fsType: ext4
-    path: /mnt/data
+  
 
