@@ -43,7 +43,7 @@ rules:
               number: 80
       paths:
       - pathType: Prefix
-        path: "/"
+        path: "/mobile"
         backend:
           service:
             name: my-svc-mobile
