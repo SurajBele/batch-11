@@ -41,8 +41,6 @@ rules:
             name: my-svc-home 
             port: 
               number: 80
-  - host: tar.mobile.com
-    http:
       paths:
       - pathType: Prefix
         path: "/"
