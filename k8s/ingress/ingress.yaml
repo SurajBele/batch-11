@@ -18,11 +18,11 @@ spec:
             name: my-svc-home 
             port: 
               number: 80
-  - host: apple.com.mobile
+  - host: tar.mobile.com
     http:
       paths:
       - pathType: Prefix
-        path: "/mobile"
+        path: "/"
         backend:
           service:
             name: my-svc-mobile
