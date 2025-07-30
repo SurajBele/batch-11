@@ -11,7 +11,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-  - host: cbz.com                 # Assign host name to IP add in /etc/hosts file
+  - host: apple.com                 # Assign host name to IP add in /etc/hosts file
     http:                         # echo " 192.168.0.5 domain.com" >> /etc/hosts
       paths:
       - pathType: Prefix
