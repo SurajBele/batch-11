@@ -32,6 +32,6 @@ spec:
     spec:
       containers:
       - name: apple-mobile
-        image: 
+        image: /mobile
         ports:
         - containerPort: 80
