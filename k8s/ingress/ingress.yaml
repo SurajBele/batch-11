@@ -4,9 +4,11 @@ metadata:
   name: myingress
   labels:
     name: myingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-  - host: apple.com                 
+  - host: tar.com                 
     http:                         
       paths:
       - pathType: Prefix
