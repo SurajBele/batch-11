@@ -17,7 +17,8 @@ spec:
             port: 
               number: 80
       path:        
-      - pathType: pre
+      - pathType: Prefix
+        path:
   # - host: apple.com.mobile
   #   http:
   #     paths:
