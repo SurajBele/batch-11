@@ -28,7 +28,7 @@ spec:
       #       name: my-svc-mobile  
       #       port: 
       #         number: 80
-  - host: mobile.com
+  - host: apple.com/mobile.com
     http:
       paths:
       - pathType: Prefix
