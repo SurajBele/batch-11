@@ -18,7 +18,7 @@ spec:
               number: 80
       path:        
       - pathType: Prefix
-        path:
+        path: /mobile
   # - host: apple.com.mobile
   #   http:
   #     paths:
