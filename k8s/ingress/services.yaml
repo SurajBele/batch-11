@@ -23,7 +23,7 @@ metadata:
     env: devops
 spec:
   selector:
-    app: cbz-mobile
+    app: app-mobile
   ports:
     - name: http
       protocol: TCP
