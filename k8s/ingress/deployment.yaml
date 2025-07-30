@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: cbz-home
+  name: apple-home
 spec:
   selector:
     matchLabels:
-      app: cbz-home
+      app: apple-home
   template:
     metadata:
       labels:
-        app: cbz-home
+        app: apple-home
     spec:
       containers:
-      - name: cbz-home
+      - name: apple-home
         image: httpd
         ports:
         - containerPort: 80
