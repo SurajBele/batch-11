@@ -22,7 +22,7 @@ spec:
             port: 
               number: 80
       # - pathType: Prefix
-      #   path: "/mobile"           # path pased routing
+      #   path: "apple.com/mobile"           # path pased routing
       #   backend:
       #     service:
       #       name: my-svc-mobile  
