@@ -32,6 +32,6 @@ spec:
     spec:
       containers:
       - name: apple-mobile
-        image: httpd
+        image: nginx
         ports:
         - containerPort: 80
