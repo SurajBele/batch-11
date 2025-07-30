@@ -23,7 +23,7 @@ metadata:
     env: devops
 spec:
   selector:
-    app: app-mobile
+    app: apple-mobile
   ports:
     - name: http
       protocol: TCP
