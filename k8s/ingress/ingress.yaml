@@ -21,7 +21,6 @@ spec:
             name: my-svc-home 
             port: 
               number: 80
-  
   - host: apple.com/mobile
     http:
       paths:
