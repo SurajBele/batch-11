@@ -21,13 +21,7 @@ spec:
             name: my-svc-home 
             port: 
               number: 80
-      # - pathType: Prefix
-      #   path: "apple.com/mobile"           # path pased routing
-      #   backend:
-      #     service:
-      #       name: my-svc-mobile  
-      #       port: 
-      #         number: 80
+  
   - host: apple.com/mobile
     http:
       paths:
