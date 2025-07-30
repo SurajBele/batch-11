@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: apple-home
-        image: nginx
+        image: httpd
         ports:
         - containerPort: 80
 ---
