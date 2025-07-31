@@ -4,20 +4,21 @@ metadata:
   name: myingress
   labels:
     name: myingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+
 spec:
   rules:
-  - host: apple.com                 
-    http:                         
+  - host: tar.com
+    http:
       paths:
       - pathType: Prefix
-        path: "/"                     
+        path: "/"
         backend:
           service:
-            name: my-svc-home 
-            port: 
+            name: my-svc-home
+            port:
               number: 80
-  - host: apple.com.mobile
-    http:
       paths:
       - pathType: Prefix
         path: "/mobile"
