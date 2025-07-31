@@ -6,7 +6,6 @@ metadata:
     name: myingress
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
-
 spec:
   rules:
   - host: tar.com
@@ -19,11 +18,36 @@ spec:
             name: my-svc-home
             port:
               number: 80
+  - host: tar.mobile.com
+    http:
       paths:
       - pathType: Prefix
-        path: "/mobile"
+        path: "/"
         backend:
           service:
             name: my-svc-mobile
             port: 
               number: 80
+
+#for path based routing
+# rules:
+#   - host: tar.com                 
+#     http:                         
+#       paths:
+#       - pathType: Prefix
+#         path: "/"                     
+#         backend:
+#           service:
+#             name: my-svc-home 
+#             port: 
+#               number: 80
+#       paths:
+#       - pathType: Prefix
+#         path: "/mobile"
+#         backend:
+#           service:
+#             name: my-svc-mobile
+#             port: 
+#               number: 80
+
+## curl tar.com/mobile
