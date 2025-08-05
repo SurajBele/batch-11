@@ -1,1 +1,3 @@
-pro
+provider "aws" {
+  
+}
