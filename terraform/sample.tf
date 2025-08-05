@@ -4,6 +4,7 @@ provider "aws" {
 resource "aws_instance" "myinstance" {
     ami = "ami-020cba7c55df1f615"
     instance_type = "t2.micro"
-    key_name = id
+    key_name = "id_rsa"
+    vpc_security_group_ids = 
   
 }
