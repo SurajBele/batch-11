@@ -1,5 +1,5 @@
 terraform{
-    backend  =
+    backend  "s3"
 }
 
 provider "aws" {
