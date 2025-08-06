@@ -1,6 +1,6 @@
 terraform {
     backend "s3" {
-        bucket = "batch-b9"
+        bucket = "batch-11-terraform"
         region = "us-east-1"
         key = "11terraform.tfstate"
     }
