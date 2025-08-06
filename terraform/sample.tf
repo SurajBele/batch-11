@@ -1,6 +1,6 @@
 terraform{
     backend  "s3" {
-        bucket = "value"
+        bucket = "batch-11-terraform"
         region = "value"
     }
 }
