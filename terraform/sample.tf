@@ -2,6 +2,7 @@ terraform {
     backend "s3" {
         bucket = "batch-b9"
         region = "us-east-1"
+        key = "terraform."
     }
 }
 provider "aws" {
