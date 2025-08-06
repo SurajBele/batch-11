@@ -9,6 +9,6 @@ resource "aws_instance" "myinstance" {
     vpc_security_group_ids = ["sg-0d34c3d2b6fa6492a", "sg-0d34c3d2b6fa6492a"]
     availability_zone = 
     subnet_id = 
-    
+    vpc_id = 
   
 }
