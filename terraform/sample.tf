@@ -3,7 +3,6 @@ terraform {
         bucket = "batch-b9"
         region = "us-east-1"
         key = "11terraform.tfstate"
-        
     }
 }
 provider "aws" {
