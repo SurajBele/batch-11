@@ -15,6 +15,5 @@ resource "aws_instance" "myinstance" {
     tags = {
       name = "spider-terraform"
       env = "devops"
-    }
-   
+    } 
 }
