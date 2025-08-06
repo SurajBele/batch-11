@@ -10,6 +10,6 @@ resource "aws_instance" "myinstance" {
     availability_zone = 
     subnet_id = 
     vpc_id = 
-    user_
+    user_data = 
   
 }
