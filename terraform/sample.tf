@@ -14,6 +14,6 @@ resource "aws_instance" "myinstance" {
     key_name = "id_rsa"
     vpc_security_group_ids = ["sg-0d34c3d2b6fa6492a", "sg-0d34c3d2b6fa6492a"]
     tags = {
-      name = "spider-terraform"
+      Name = "spider-terraform"
     } 
 }
