@@ -22,7 +22,8 @@ resource "aws_instance" "myinstance" {
 resource "aws_security_group" "name" {
   ingress = {
     from_port = 80
-    to_port 
+    to_port = 80
+    protocol = T
   }
   egress {
     from_port        = 0
