@@ -34,7 +34,6 @@ resource "aws_security_group" "terra-sg" {
   }
   tags = {
     Name = "terra-sg"
-    
   }
 }
 
