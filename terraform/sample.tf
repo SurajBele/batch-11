@@ -19,7 +19,7 @@ resource "aws_instance" "myinstance" {
     } 
 }
 
-resource "" "name" {
+resource "aws_security_group" "name" {
   
 }
 
