@@ -23,6 +23,6 @@ variable "instance_type" {
   default = "t2.micro"
 }
 
-output "name" {
+output "instance_public_ip" {
   
 }
