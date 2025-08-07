@@ -22,7 +22,9 @@ resource "aws_instance" "myinstance" {
 variable "instance_type" {
   default = "t2.micro"
 }
-
+variable "" {
+  
+}
 output "instance_public_ip" {
   default = 
 }
