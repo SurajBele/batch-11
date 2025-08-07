@@ -18,3 +18,7 @@ resource "aws_instance" "myinstance" {
       env = "devops"
     } 
 }
+
+variable "" {
+  
+}
