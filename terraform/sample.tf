@@ -19,7 +19,7 @@ resource "aws_instance" "myinstance" {
     } 
 }
 
-resource "aws_security_group" "name" {
+resource "aws_security_group" "terra" {
   ingress = {
     from_port = 80
     to_port = 80
