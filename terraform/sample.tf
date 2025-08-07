@@ -2,8 +2,7 @@ terraform {
     backend "s3" {
         bucket = "batch-11-terraform"
         region = "us-east-1"
-        key = "terraform.tfstate"
-        kms_key_id = 
+        key = "terraform.tfstate" 
     }
 }
 provider "aws" {
