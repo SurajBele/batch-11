@@ -25,8 +25,8 @@ variable "instance_type" {
 variable "ami" {
   default = "ami-020cba7c55df1f615"
 }
-variable "" {
-  
+variable "region" {
+  default = us-east-1
 }
 
 
