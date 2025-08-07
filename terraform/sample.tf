@@ -40,5 +40,5 @@ variable "key_pair"{
 
 
 output "instance_public_ip" {
-  default = 
+  default = aws_instance
 }
