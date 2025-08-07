@@ -3,6 +3,7 @@ terraform {
         bucket = "batch-11-terraform"
         region = "us-east-1"
         key = "terraform.tfstate"
+        kms_key_id = 
     }
 }
 provider "aws" {
