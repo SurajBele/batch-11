@@ -30,7 +30,7 @@ variable "region" {
 }
 
 variable "key_pair"{
-    
+    default = "id_rsa"
 }
 
 
