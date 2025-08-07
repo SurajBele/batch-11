@@ -29,7 +29,9 @@ variable "region" {
   default = "us-east-1"
 }
 
-varia
+variable "key_pair"{
+    
+}
 
 
 
