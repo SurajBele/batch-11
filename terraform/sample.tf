@@ -24,5 +24,5 @@ variable "instance_type" {
 }
 
 output "instance_public_ip" {
-  
+  default
 }
