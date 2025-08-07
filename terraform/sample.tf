@@ -11,7 +11,7 @@ provider "aws" {
 resource "aws_instance" "myinstance" {
     ami = var.ami
     instance_type = var.instance_type
-    key_name = var.ke
+    key_name = var.key_pair
     vpc_security_group_ids = ["sg-0d34c3d2b6fa6492a", "sg-0d34c3d2b6fa6492a"]
     tags = {
       Name = "spider-terraform"
