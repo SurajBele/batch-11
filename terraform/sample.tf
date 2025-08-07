@@ -20,7 +20,9 @@ resource "aws_instance" "myinstance" {
 }
 
 resource "aws_security_group" "name" {
- 
+  ingress = {
+    from
+  }
   egress {
     from_port        = 0
     to_port          = 0
