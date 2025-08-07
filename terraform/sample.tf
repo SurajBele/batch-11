@@ -1,7 +1,7 @@
 terraform {
     backend "s3" {
         bucket = "batch-11-terraform"
-        region = "us-east-1"
+        region = var.region
         key = "terraform.tfstate" 
     }
 }
@@ -11,7 +11,7 @@ provider "aws" {
 resource "aws_instance" "myinstance" {
     ami = var.ami
     instance_type = var.instance_type
-    key_name = "id_rsa"
+    key_name = var.ke
     vpc_security_group_ids = ["sg-0d34c3d2b6fa6492a", "sg-0d34c3d2b6fa6492a"]
     tags = {
       Name = "spider-terraform"
