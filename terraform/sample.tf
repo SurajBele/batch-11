@@ -25,6 +25,16 @@ variable "instance_type" {
 variable "ami" {
   default = "ami-020cba7c55df1f615"
 }
+variable "" {
+  
+}
+
+
+
+
+
+
+
 output "instance_public_ip" {
   default = 
 }
