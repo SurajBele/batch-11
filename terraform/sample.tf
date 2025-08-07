@@ -33,7 +33,8 @@ resource "aws_security_group" "terra-sg" {
     cidr_blocks      = ["0.0.0.0/0"]
   }
   tags = {
-    Name = terra
+    Name = "terra-sg"
+    
   }
 }
 
