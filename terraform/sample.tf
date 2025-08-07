@@ -40,5 +40,5 @@ variable "key_pair"{
 
 
 output "instance_public_ip" {
-  default = aws_instance.myinstance.instance_public_ip
+  default = aws_instance.myinstance.public_ip
 }
