@@ -19,6 +19,10 @@ resource "aws_instance" "myinstance" {
     } 
 }
 
+resource "" "name" {
+  
+}
+
 variable "instance_type" {
   default = "t2.micro"
 }
