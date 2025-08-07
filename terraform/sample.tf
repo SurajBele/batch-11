@@ -19,7 +19,7 @@ resource "aws_instance" "myinstance" {
     } 
 }
 
-resource "aws_security_group" "terra" {
+resource "aws_security_group" "terra-sg" {
   ingress = {
     from_port = 80
     to_port = 80
@@ -32,6 +32,7 @@ resource "aws_security_group" "terra" {
     protocol         = "-1"
     cidr_blocks      = ["0.0.0.0/0"]
   }
+  tags = 
 }
 
 variable "instance_type" {
