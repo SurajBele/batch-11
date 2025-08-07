@@ -1,7 +1,7 @@
 terraform {
     backend "s3" {
         bucket = "batch-11-terraform"
-        region = var.region
+        region = 
         key = "terraform.tfstate" 
     }
 }
