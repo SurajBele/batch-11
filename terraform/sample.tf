@@ -12,7 +12,7 @@ resource "aws_instance" "myinstance" {
     ami = var.ami
     instance_type = var.instance_type
     key_name = var.key_pair
-    vpc_security_group_ids = ["sg-0d34c3d2b6fa6492a", "sg-0d34c3d2b6fa6492a"]
+    vpc_security_group_ids = 
     tags = {
       Name = "spider-terraform"
       env = "devops"
