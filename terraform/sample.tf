@@ -22,8 +22,8 @@ resource "aws_instance" "myinstance" {
 variable "instance_type" {
   default = "t2.micro"
 }
-variable "" {
-  
+variable "ami" {
+  default = 
 }
 output "instance_public_ip" {
   default = 
