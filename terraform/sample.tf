@@ -48,7 +48,7 @@ variable "region" {
 }
 
 variable "key_pair"{
-    default = "id_rsa"
+    default = "test"
 }
 
 output "instance_public_ip" {
