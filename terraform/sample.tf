@@ -39,6 +39,7 @@ data "aws_security_group" "mysg" {
   }
   filter {
     name = "group-name"
+    value = 
   }
 }
 resource "aws_security_group" "terra-sg" {
