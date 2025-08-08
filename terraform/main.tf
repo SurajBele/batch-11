@@ -32,4 +32,4 @@ resource "aws_subnet" "private-sub" {
     Name = "pluto-pvt-sub"
   }
 }
-resource "aws_internet_gat"
+resource "aws_internet_gateway" "myigw" 
