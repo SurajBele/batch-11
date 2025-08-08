@@ -14,5 +14,5 @@ resource "aws_vpc" "myvpc" {
 }
 
 resource "aws_subnet" "public-sub" {
-  vpc_id = 
+  vpc_id = aws
 }
