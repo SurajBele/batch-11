@@ -51,6 +51,7 @@ resource "aws_route_table_association" "attach_subnet" {
 }
 
 resource "aws_instance" "vpc-instance" {
-    
+
+
 }
 ]
