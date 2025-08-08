@@ -35,11 +35,11 @@ resource "aws_instance" "myinstance" {
 data "aws_security_group" "mysg" {
   filter {
     name = "vpc-id"
-    value = ["vpc-0b0072d19f34389e0"]
+    values = ["vpc-0b0072d19f34389e0"]
   }
   filter {
     name = "group-name"
-    value = ["launch-wizard-1"]
+    values = ["launch-wizard-1"]
   }
 }
 resource "aws_security_group" "terra-sg" {
