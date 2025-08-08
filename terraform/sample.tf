@@ -38,7 +38,7 @@ data "aws_security_group" "mysg" {
     value = "vpc-0b0072d19f34389e0"
   }
   filter {
-    name = 
+    name = "group-name"
   }
 }
 resource "aws_security_group" "terra-sg" {
@@ -74,4 +74,5 @@ variable "key_pair"{
 }
 
 output "instance_public_ip" {
-  value = aws_instance.myinstance.public_ip
+  value = aws_instance.myinstance.public_ip
+}
