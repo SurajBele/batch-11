@@ -25,6 +25,6 @@ resource "aws_subnet" "public-sub" {
     Name = "pluto"
   }
 }
-resource "" "name" {
+resource "aws_subnet" "private-sub" {
   
 }
