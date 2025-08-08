@@ -32,3 +32,4 @@ resource "aws_subnet" "private-sub" {
     Name = "pluto-pvt-sub"
   }
 }
+res
