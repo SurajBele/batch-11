@@ -8,6 +8,10 @@ terraform {
 provider "aws" {
   region = "us-east-1"
 }
+provider "google" {
+  project     = "my-project-id"
+  region      = "us-central1"
+}
 resource "aws_instance" "myinstance" {
     ami = var.ami
     instance_type = var.instance_type
