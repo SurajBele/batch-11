@@ -39,5 +39,6 @@ resource "aws_internet_gateway" "myigw" {
   }
 }
 resource "aws_route_table" "" {
-  vpc_id = aws_vpc.myvpc
+  vpc_id = aws_vpc.myvpc.id
+  
 }
