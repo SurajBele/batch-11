@@ -32,7 +32,7 @@ resource "aws_instance" "myinstance" {
       env = "devops"
     } 
 }
-data "" "name" {
+data "aws_se" "name" {
   
 }
 resource "aws_security_group" "terra-sg" {
