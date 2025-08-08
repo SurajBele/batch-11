@@ -34,7 +34,7 @@ resource "aws_instance" "myinstance" {
 }
 data "aws_security_group" "mysg" {
   filter {
-    groupname
+    name = "vpc-id"
   }
 }
 resource "aws_security_group" "terra-sg" {
