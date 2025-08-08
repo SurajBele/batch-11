@@ -26,5 +26,5 @@ resource "aws_subnet" "public-sub" {
   }
 }
 resource "aws_subnet" "private-sub" {
-  
+  vpc_id = aws_vpc
 }
