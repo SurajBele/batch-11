@@ -50,4 +50,7 @@ resource "aws_route_table_association" "attach_subnet" {
   route_table_id = aws_route_table.myroute.id
 }
 
-resource "aws_instance" "vpc"
+resource "aws_instance" "vpc-instance" {
+    
+}
+]
