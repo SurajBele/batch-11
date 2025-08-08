@@ -13,5 +13,5 @@ variable "key_pair"{
 }
 
 variable "aws_vpc_cidr" {
-  default = 
+  default = "10.0.0.0/16"
 }
