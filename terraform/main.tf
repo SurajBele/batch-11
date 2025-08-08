@@ -33,5 +33,6 @@ resource "aws_subnet" "private-sub" {
   }
 }
 resource "aws_internet_gateway" "myigw" {
-    vpc_id = 
+    vpc_id = aws_vpc.myvpc.id
+    
 }
