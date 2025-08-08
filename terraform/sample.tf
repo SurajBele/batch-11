@@ -32,8 +32,8 @@ resource "aws_instance" "myinstance" {
       env = "devops"
     } 
 }
-data "aws_se" "name" {
-  
+data "aws_security_group" "mysg" {
+  filter
 }
 resource "aws_security_group" "terra-sg" {
   ingress {
