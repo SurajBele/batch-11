@@ -38,7 +38,7 @@ resource "aws_internet_gateway" "myigw" {
     Name = "pluto-pvt-sub"
   }
 }
-resource "aws_route_table" "" {
+resource "aws_route_table" "myroute" {
   vpc_id = aws_vpc.myvpc.id
   route {
     cidr_block = "0.0.0.0/0"
@@ -46,6 +46,6 @@ resource "aws_route_table" "" {
   }
 }
 resource "aws_route_table_association" "attach_subnet" {
-  subnet_id      = aws_subnet.public-sub
-  route_table_id = aws_route_table.bar.id
+  subnet_id      = aws_subnet.public-sub.id
+  route_table_id = aws_route_tabl.id
 }
