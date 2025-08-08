@@ -12,6 +12,6 @@ variable "key_pair"{
     default = "test"
 }
 
-variable "" {
-  
+variable "aws_vpc_cidr" {
+  default = 
 }
