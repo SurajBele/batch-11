@@ -46,6 +46,6 @@ resource "aws_route_table" "" {
   }
 }
 resource "aws_route_table_association" "attach_subnet" {
-  subnet_id      = aws_subnet.foo.id
+  subnet_id      = aws_subnet.public-sub
   route_table_id = aws_route_table.bar.id
 }
