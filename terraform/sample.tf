@@ -33,7 +33,9 @@ resource "aws_instance" "myinstance" {
     } 
 }
 data "aws_security_group" "mysg" {
-  filter
+  filter {
+    
+  }
 }
 resource "aws_security_group" "terra-sg" {
   ingress {
