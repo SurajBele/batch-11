@@ -35,7 +35,7 @@ resource "aws_instance" "myinstance" {
 data "aws_security_group" "mysg" {
   filter {
     name = "vpc-id"
-    values = ["vpc-0b0072d19f34389e0"]
+    value = ["vpc-0b0072d19f34389e0"]
   }
   filter {
     name = "group-name"
