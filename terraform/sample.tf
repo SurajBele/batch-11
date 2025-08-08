@@ -39,7 +39,7 @@ data "aws_security_group" "mysg" {
   }
   filter {
     name = "group-name"
-    value = [""]
+    value = ["launch-wizard-1"]
   }
 }
 resource "aws_security_group" "terra-sg" {
