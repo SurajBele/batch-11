@@ -11,3 +11,7 @@ variable "region" {
 variable "key_pair"{
     default = "test"
 }
+
+variable "" {
+  
+}
