@@ -14,5 +14,6 @@ resource "aws_vpc" "myvpc" {
 }
 
 resource "aws_subnet" "public-sub" {
-  vpc_id = aws
+  vpc_id = aws_vpc.myvpc.id
+  cidr_block = 
 }
