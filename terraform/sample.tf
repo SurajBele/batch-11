@@ -32,6 +32,9 @@ resource "aws_instance" "myinstance" {
       env = "devops"
     } 
 }
+data "" "name" {
+  
+}
 resource "aws_security_group" "terra-sg" {
   ingress {
     from_port       = 80
