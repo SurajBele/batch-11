@@ -27,5 +27,6 @@ resource "aws_subnet" "public-sub" {
 }
 resource "aws_subnet" "private-sub" {
   vpc_id = aws_vpc.myvpc.id
-  cidr_block = 
+  cidr_block = "10.0.1.0/24"
+  
 }
