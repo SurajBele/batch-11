@@ -9,7 +9,7 @@ variable "region" {
 }
 
 variable "key_pair"{
-    default = "test"
+    default = "id_rsa"
 }
 
 variable "aws_vpc_cidr" {
