@@ -1,4 +1,4 @@
 resource "aws_instance" "module-ins" {
-    ami
+    ami = var.ami
   
 }
