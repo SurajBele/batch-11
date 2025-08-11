@@ -9,10 +9,10 @@ provider "aws" {
   region = "us-east-1"
 }
 
-resource "aws_vpc" "myvpc" {
+                resource "aws_vpc" "myvpc" {
   cidr_block = var.aws_vpc_cidr
   tags = {
-    Name = "pluto"
+                   Name = "pluto"
   }
 }
 
@@ -25,10 +25,10 @@ resource "aws_vpc" "myvpc" {
     Name = "pluto-pub-sub"
   }
 }
-resource "aws_subnet" "private-sub" {
-  vpc_id = aws_vpc.myvpc.id
+                  resource "aws_subnet" "private-sub" {
+            vpc_id = aws_vpc.myvpc.id
   cidr_block = "10.0.1.0/24"
-  tags = {
+                 tags = {
     Name = "pluto-pvt-sub"
   }
 }
