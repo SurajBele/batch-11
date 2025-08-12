@@ -1,5 +1,5 @@
-variable "instance_type" {
-  
+variable "image_id" {
+  default = 
 }
 variable "ami" {
   default = "ami-020cba7c55df1f615"
