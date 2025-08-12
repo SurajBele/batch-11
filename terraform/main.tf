@@ -17,6 +17,6 @@ instance_type =
 project = 
 sg_ids = 
 env = 
-subnet_id
+subnet_id = 
 
 }
