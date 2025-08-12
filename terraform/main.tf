@@ -10,6 +10,6 @@ provider "aws" {
 }
 
 modules "myinstance"{
-source 
+source = .terraform
 
 }
