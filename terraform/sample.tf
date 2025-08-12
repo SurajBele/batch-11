@@ -1,49 +1,49 @@
-terraform {
-    backend "s3" {
-        bucket = "batch-11-terraform"
-        region = "us-east-1"
-        key = "terraform.tfstate" 
-    }
-}
-provider "aws" {
-  region = "us-east-1"
-}
+# terraform {
+#     backend "s3" {
+#         bucket = "batch-11-terraform"
+#         region = "us-east-1"
+#         key = "terraform.tfstate" 
+#     }
+# }
+# provider "aws" {
+#   region = "us-east-1"
+# }
 
-resource "aws_instance" "myinstance" {
-    ami = var.ami
-    instance_type = var.instance_type
-    key_name = var.key_pair
-    vpc_security_group_ids = [aws_security_group.terra-sg.id]
-    tags = {
-      Name = "spider-terraform"
-      env = "devops"
-    } 
-}
+# resource "aws_instance" "myinstance" {
+#     ami = var.ami
+#     instance_type = var.instance_type
+#     key_name = var.key_pair
+#     vpc_security_group_ids = [aws_security_group.terra-sg.id]
+#     tags = {
+#       Name = "spider-terraform"
+#       env = "devops"
+#     } 
+# }
 
-data "aws_security_group" "mysg" {
-  filter {
-    name = "vpc-id"
-    values = ["vpc-0b0072d19f34389e0"]
-  }
-  filter {
-    name = "group-name"
-    values = ["launch-wizard-1"]
-  }
-}
-resource "aws_security_group" "terra-sg" {
-  ingress {
-    from_port       = 80
-    to_port         = 80
-    protocol        = "TCP"
-    cidr_blocks     = ["0.0.0.0/0"]
-  }
-  egress {
-    from_port        = 0
-    to_port          = 0
-    protocol         = "-1"
-    cidr_blocks      = ["0.0.0.0/0"]
-  }
-  tags = {
-    Name = "terra-sg"
-  }
-}
+# data "aws_security_group" "mysg" {
+#   filter {
+#     name = "vpc-id"
+#     values = ["vpc-0b0072d19f34389e0"]
+#   }
+#   filter {
+#     name = "group-name"
+#     values = ["launch-wizard-1"]
+#   }
+# }
+# resource "aws_security_group" "terra-sg" {
+#   ingress {
+#     from_port       = 80
+#     to_port         = 80
+#     protocol        = "TCP"
+#     cidr_blocks     = ["0.0.0.0/0"]
+#   }
+#   egress {
+#     from_port        = 0
+#     to_port          = 0
+#     protocol         = "-1"
+#     cidr_blocks      = ["0.0.0.0/0"]
+#   }
+#   tags = {
+#     Name = "terra-sg"
+#   }
+# }
