@@ -10,7 +10,7 @@ resource "aws_subnet" "pvt-subnet" {
   tags = {
     Name = "${var.project}_pvt_subnet"
   }
-  map_public_ip_on_launch = true
+  map_public_ip_on_launch = false
 }
 resource "aws_subnet" "pub-subnet" {
   vpc_id     = aws_vpc.myvpc.id
