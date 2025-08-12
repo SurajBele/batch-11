@@ -11,7 +11,7 @@ provider "aws" {
 
 modules "myinstance"{
 source = ./instance
-image_id = 
+image_id = var.image_id
 key_pair =
 instance_type =  
 project = 
