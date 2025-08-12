@@ -12,4 +12,5 @@ provider "aws" {
 modules "myinstance"{
 source = ./instance
 
+
 }
