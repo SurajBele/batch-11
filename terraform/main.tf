@@ -8,6 +8,14 @@ terraform {
 provider "aws" {
   region = "us-east-1"
 }
+module "my_vpc_module" {
+    source = "./terraform/vpc"
+    project = var.project
+    vpc_cidr = var.vpc_cidr
+    pvt_subnet_cidr = var.private_cidr
+    pub_subnet_cidr = var.public_cidr
+    env = var.environment
+} 
 
 module "my_instance" {
   source = "./terraform/instance"
