@@ -1,3 +1,3 @@
 output "instance_public_ip" {
-  value = 
+  value = aws_instance.my-
 }
