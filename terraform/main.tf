@@ -9,14 +9,15 @@ provider "aws" {
   region = "us-east-1"
 }
 
-modules "myinstance"{
-source = ./instance
-image_id = var.image_id
-key_pair =
-instance_type =  
-project = 
-sg_ids = 
-env = 
-subnet_id = 
-
+module "my_instance" {
+  source = "./terraform/modules/instance"
+  count = var.instance_count
+  image_id = var.image_id 
+  key_pair = var.key_pair
+  instance_type = var.instance_type
+  project = var.project
+  env = var.environment
+  subnet_id = module.my_vpc_module.pub_subnet_id
+  sg_ids = [aws_security_group.mysg.id]
 }
+
