@@ -1,7 +1,7 @@
-variable "image_id" {
-  default = 
+variable "instance_type" {
+  default = "t2.micro"
 }
-variable "ami" {
+variable "" {
   default = "ami-020cba7c55df1f615"
 }
 variable "region" {
