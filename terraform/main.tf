@@ -15,6 +15,8 @@ image_id =
 key_pair =
 instance_type =  
 project = 
-sg
+sg_ids = 
+env = 
+subnet_id
 
 }
