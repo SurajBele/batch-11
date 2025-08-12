@@ -1,5 +1,7 @@
 variable "image_id" {}
-variable "instance_type" {}
 variable "key_pair" {}
-variable "sg_ids" {}
+variable "instance_type" {}
 variable "project" {}
+variable "sg_ids" {}
+variable "env" {}
+variable "subnet_id" {}
