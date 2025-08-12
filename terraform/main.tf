@@ -11,7 +11,6 @@ provider "aws" {
 
 module "my_instance" {
   source = "./terraform/modules/instance"
-  count = var.instance_count
   image_id = var.image_id 
   key_pair = var.key_pair
   instance_type = var.instance_type
