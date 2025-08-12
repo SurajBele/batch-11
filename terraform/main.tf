@@ -8,6 +8,38 @@ terraform {
 provider "aws" {
   region = "us-east-1"
 }
+resource "aws_security_group" "mysg" {
+  name        = "${var.project}-mysg"
+  description = "Allow httpd service"
+  vpc_id      = module.my_vpc_module.vpc_id
+
+  ingress {
+    protocol         = "TCP"
+    from_port        = 80
+    to_port          = 80
+    cidr_blocks      = ["0.0.0.0/0"]
+  }
+  ingress {
+    protocol         = "TCP"
+    from_port        = 22
+    to_port          = 22
+    cidr_blocks      = ["0.0.0.0/0"]
+  }
+  egress {
+    from_port        = 0
+    to_port          = 0
+    protocol         = "-1"
+    cidr_blocks      = ["0.0.0.0/0"]
+  }
+
+  tags = {
+    Name = "${var.project}-mysg"
+  }
+  depends_on = [
+    module.my_vpc_module
+  ]
+}
+
 module "my_vpc_module" {
     source = "./terraform/vpc"
     project = var.project
