@@ -14,5 +14,6 @@ source = ./instance
 image_id = 
 key_pair =
 instance_type =  
+project
 
 }
