@@ -9,4 +9,7 @@ provider "aws" {
   region = "us-east-1"
 }
 
-modules ""
+modules "myinstance"{
+
+  
+}
