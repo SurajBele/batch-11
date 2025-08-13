@@ -61,7 +61,7 @@ module "my_instance" {
 }
 module "my_instance" {
   source = "./instance"
-  image_id = var.image_id 
+  image_id = var.image_id2 
   key_pair = var.key_pair
   instance_type = var.instance_type
   project = var.project
