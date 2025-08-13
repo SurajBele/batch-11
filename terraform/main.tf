@@ -50,7 +50,7 @@ module "my_vpc_module" {
 } 
 
 module "my_instance" {
-  source = "./terraform/instance"
+  source = "./instance"
   image_id = var.image_id 
   key_pair = var.key_pair
   instance_type = var.instance_type
