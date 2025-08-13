@@ -25,3 +25,7 @@ variable "key_pair" {
 variable "instance_type" {
   default = "t2.micro"
 }
+
+variable "image_id" {
+  default = "ami-0f5ee92e2d63afc18"
+}
