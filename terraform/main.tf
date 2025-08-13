@@ -3,7 +3,7 @@ terraform {
         bucket = "batch-11-terraform"
         region = "us-east-1"
         key = "terraform.tfstate" 
-        
+
     }
 }
 provider "aws" {
@@ -60,7 +60,7 @@ module "my_instance" {
   subnet_id = module.my_vpc_module.pub_subnet_id
   sg_ids = [aws_security_group.mysg.id]
 }
-module "my_instance" {
+module "my_instance2" {
   source = "./instance"
   image_id = var.image_id2 
   key_pair = var.key_pair
