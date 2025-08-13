@@ -27,5 +27,5 @@ variable "instance_type" {
 }
 
 variable "image_id2" {
-  default = "ami-0f5ee92e2d63afc18"
+  default = "ami-020cba7c55df1f615"
 }
