@@ -41,7 +41,7 @@ resource "aws_security_group" "mysg" {
 }
 
 module "my_vpc_module" {
-    source = "./terraform/vpc"
+    source = "./vpc"
     project = var.project
     vpc_cidr = var.vpc_cidr
     pvt_subnet_cidr = var.private_cidr
