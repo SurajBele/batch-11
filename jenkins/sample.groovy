@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('pull') { 
             steps {
-                
+                git clone url
                 echo "pulling successful" 
             }
         }
