@@ -13,12 +13,12 @@ pipeline {
         }
         stage('test') { 
             steps {
-               echo "pulling successful" 
+               echo "testing successful" 
             }
         }
         stage('Deploy') { 
             steps {
-                // 
+                echo "deployed successful" 
             }
         }
     }
