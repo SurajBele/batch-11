@@ -6,7 +6,12 @@ pipeline {
                 // 
             }
         }
-        stage('Test') { 
+        stage('build') { 
+            steps {
+                // 
+            }
+        }
+        stage('Deploy') { 
             steps {
                 // 
             }
