@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('pull') { 
             steps {
+                
                 echo "pulling successful" 
             }
         }
