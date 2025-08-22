@@ -1,5 +1,7 @@
 pipeline {
-    agent any 
+    agent {
+        la
+    } 
     stages {
         stage('pull') { 
             steps {
