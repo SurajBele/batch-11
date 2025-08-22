@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        lables 
+        lables 'node1'
     } 
     stages {
         stage('pull') { 
