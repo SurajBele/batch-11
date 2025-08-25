@@ -28,4 +28,3 @@ pipeline {
     }
 }
 
-https://www.sonarsource.com/products/sonarqube/downloads/success-download-community-edition/
