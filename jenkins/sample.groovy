@@ -17,7 +17,7 @@ pipeline {
         }
         stage('test') { 
             steps {
-                sh '/opt/apache-maven-3.9.11/bin/mvn clean package sonar:sonar   -Dsonar.projectKey=myproject'
+                sh '/opt/apache-maven-3.9.11/bin/mvn clean package sonar:sonar    -Dsonar.projectKey=myproject'
                echo "testing successful" 
             }
         }
