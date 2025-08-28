@@ -23,7 +23,7 @@ pipeline {
                echo "testing successful" 
             }
         }
-        stage('quality') { 
+        stage('quality-gate') { 
             steps {
                 echo "deployed successful" 
             }
@@ -34,3 +34,5 @@ pipeline {
             }
         }
     }
+}
+
