@@ -23,11 +23,14 @@ pipeline {
                echo "testing successful" 
             }
         }
+        stage('quality') { 
+            steps {
+                echo "deployed successful" 
+            }
+        }
         stage('Deploy') { 
             steps {
                 echo "deployed successful" 
             }
         }
     }
-}
-
