@@ -4,3 +4,6 @@
    - name: 1st-msg
      debug:
        msg: "welcome to ansible world"
+   - name: 1st-msg
+     debug:
+       msg: "welcome to devops"
