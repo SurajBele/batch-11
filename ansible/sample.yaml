@@ -13,4 +13,5 @@
     debug:
       msg: welcome to "{{city}}" 
       vars:
+        city: ""
 
