@@ -1,7 +1,7 @@
 - name: my sample playbook
   hosts: all
   vars: 
-     name: "india"
+     name: "pune"
   tasks: 
   - name: 1st-msg
     debug:
