@@ -3,7 +3,7 @@
   vars: 
     city: "pune"
   vars_files:
-   ./
+    ./var.txt
   tasks: 
   - name: 1st-msg
     debug:
