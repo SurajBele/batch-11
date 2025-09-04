@@ -4,8 +4,11 @@
     city: "pune"
   vars_files:
    - ./var.txt
-  vars_prompt:
-    - name: URL
+ vars_prompt:
+- name: URL
+  prompt: enter your varible value
+  private: false
+
   tasks: 
   - name: 1st-msg
     debug:
