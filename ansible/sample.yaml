@@ -8,7 +8,7 @@
       msg: welcome to "{{city}}" 
   - name: 2st-msg
     debug:
-      msg: "welcome to devops"
+      msg: welcome to "{{city}}" 
   - name: 3st-msg
     debug:
-      msg: "welcome to india"
+      msg: welcome to "{{city}}" 
