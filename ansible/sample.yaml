@@ -4,9 +4,9 @@
   - name: 1st-msg
     debug:
       msg: "welcome to ansible world"
-  - name: 1st-msg
+  - name: 2st-msg
     debug:
       msg: "welcome to devops"
-  - name: 1st-msg
+  - name: 3st-msg
     debug:
       msg: "welcome to india"
