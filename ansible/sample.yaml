@@ -1,2 +1,2 @@
 - name: my sample playbook
-  host: 
+  host: all
