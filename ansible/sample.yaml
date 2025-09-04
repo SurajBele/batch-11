@@ -5,7 +5,7 @@
   tasks: 
   - name: 1st-msg
     debug:
-      msg: welcome to "{{city}}"
+      msg: welcome to "{{city}}" 
   - name: 2st-msg
     debug:
       msg: "welcome to devops"
