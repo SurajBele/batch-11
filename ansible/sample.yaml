@@ -1,9 +1,9 @@
 - name: my sample playbook
   hosts: all
-  vars: 
-    city: "pune"
-  vars_files:
-   - ./var.txt
+  # vars: 
+  #   city: "pune"
+  # vars_files:
+  #  - ./var.txt
   vars_prompt:
     - name: city
       prompt: enter your varible value
