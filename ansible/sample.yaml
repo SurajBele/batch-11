@@ -19,5 +19,6 @@
     vars:
       city: "mumbai"
   - name: 4th task
-    debug
+    debug:
+      msg: 
     
