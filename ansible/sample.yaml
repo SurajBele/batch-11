@@ -3,7 +3,7 @@
   tasks: 
   - name: 1st-msg
     debug:
-      msg: "welcome to ansible world"
+      msg: "welcome to ansible"
   - name: 2st-msg
     debug:
       msg: "welcome to devops"
