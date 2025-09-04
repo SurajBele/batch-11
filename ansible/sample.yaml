@@ -9,4 +9,4 @@
        msg: "welcome to devops"
    - name: 1st-msg
      debug:
-       msg: "welcome to ansible world"
+       msg: ""
