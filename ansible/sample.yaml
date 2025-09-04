@@ -1,3 +1,4 @@
 - name: my sample playbook
   host: all
+  task: 
   
