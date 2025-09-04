@@ -5,6 +5,7 @@
   vars_files:
    - ./var.txt
   vars_prompt:
+    - name: URL
   tasks: 
   - name: 1st-msg
     debug:
@@ -18,4 +19,5 @@
     vars:
       city: "mumbai"
   - name: 4th task
+    debug
     
