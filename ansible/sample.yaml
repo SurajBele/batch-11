@@ -4,6 +4,7 @@
     city: "pune"
   vars_files:
    - ./var.txt
+  vars_prompt:
   tasks: 
   - name: 1st-msg
     debug:
