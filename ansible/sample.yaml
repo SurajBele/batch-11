@@ -1,5 +1,5 @@
 - name: my sample playbook
   host: all
   task: 
-   - name: 1st msg
-      debug:
+   - name: 1st-msg
+     debug:
