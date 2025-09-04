@@ -18,7 +18,5 @@
       msg: welcome to "{{city}}" 
     vars:
       city: "mumbai"
-  - name: 4th task
-    debug:
-      msg: 
+  
     
