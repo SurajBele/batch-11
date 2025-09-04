@@ -5,7 +5,7 @@
   vars_files:
    - ./var.txt
   vars_prompt:
-    - name: URL
+    - name: city
       prompt: enter your varible value
       private: false
 
