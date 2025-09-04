@@ -16,4 +16,5 @@
       msg: welcome to "{{city}}" 
     vars:
       city: "mumbai"
+    
 
