@@ -7,7 +7,7 @@
   vars_prompt:
     - name: city
       prompt: enter your varible value
-      private: false
+      private: true
 
   tasks: 
   - name: 1st-msg
