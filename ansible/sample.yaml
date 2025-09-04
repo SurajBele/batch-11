@@ -12,6 +12,6 @@
   - name: 3st-msg
     debug:
       msg: welcome to "{{city}}" 
-      vars:
-        city: "mumbai"
+    vars:
+      city: "mumbai"
 
