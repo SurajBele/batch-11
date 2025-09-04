@@ -3,4 +3,4 @@
   task: 
    - name: 1st-msg
      debug:
-       msg: ""
+       msg: "welcome to ansible world"
