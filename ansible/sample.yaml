@@ -6,7 +6,7 @@
   #  - ./var.txt
   vars_prompt:
     - name: city
-      prompt: enter your varible value
+      prompt: enter your city
       private: true
 
   tasks: 
