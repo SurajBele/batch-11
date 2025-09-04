@@ -1,11 +1,11 @@
 - name: my sample playbook
   hosts: all
   vars: 
-     name: "pune"
+     city: "pune"
   tasks: 
   - name: 1st-msg
     debug:
-      msg: "welcome to {name}"
+      msg: "welcome to {city}"
   - name: 2st-msg
     debug:
       msg: "welcome to devops"
