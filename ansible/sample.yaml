@@ -1,2 +1,3 @@
 - name: my sample playbook
-  host: localhost
+  host: all
+  
