@@ -21,5 +21,7 @@
       msg: welcome to "{{city}}" 
     vars:
       city: "mumbai"
-  
+  - name: Check disk space
+    shell
+    register: disk_space
     
