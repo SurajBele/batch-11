@@ -5,9 +5,8 @@
       debug:
         msg:  "{{ansible_distribution}}"
     - name: print name
-      debug:
-        msg: "{{ansible}}"
-        ignore_errors: true
+      shell: me
+      ignore_errors: true
     - name: print os family
       debug:
         msg: "{{ansible_os_family}}"
