@@ -3,4 +3,4 @@
   tasks:
     - name: print machine name
       debug:
-        msg: 
+        msg:  "ansible_distribution"
