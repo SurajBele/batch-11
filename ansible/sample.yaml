@@ -23,7 +23,7 @@
       city: "mumbai"
   - name: execute cammand
     shell: hostname
-    register:
+    register: remote
   - name: execute cammand
     debug:
       msg: hostname
