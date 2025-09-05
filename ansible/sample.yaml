@@ -26,7 +26,7 @@
     register: remote
   - name: execute cammand
     debug:
-      msg: hostname
+      msg: remote
 
   
     
