@@ -24,7 +24,7 @@
   - name: execute cammand
     shell: hostname
     register: remote
-  - name: execute cammand
+  - name: print cammand output
     debug:
       msg: "{{remote}}"
 
