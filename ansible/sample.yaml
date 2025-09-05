@@ -24,7 +24,7 @@
   - name: execute cammand
     shell: hostname
 
-    less f1 
+    less f1 | grep sample
 
   
     
