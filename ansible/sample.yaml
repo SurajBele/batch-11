@@ -25,7 +25,8 @@
     shell: hostname
 
   - name: execute cammand
-    
+    debug:
+      msg: 
 
   
     
