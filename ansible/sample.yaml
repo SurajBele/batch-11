@@ -24,6 +24,8 @@
   - name: execute cammand
     shell: hostname
 
+    less f1 
+
   
     
     
