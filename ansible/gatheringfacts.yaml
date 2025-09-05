@@ -1,4 +1,4 @@
 - name: gather facts
   hosts: all
   tasks:
-    - 
+    - name: print machine name:
