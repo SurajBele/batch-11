@@ -7,7 +7,7 @@
     - name: print name
       debug:
         msg: "{{ansible}}"
-        ignor_errors: true
+        ignore_errors: true
     - name: print os family
       debug:
         msg: "{{ansible_os_family}}"
