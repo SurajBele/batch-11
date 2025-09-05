@@ -23,5 +23,7 @@
       city: "mumbai"
   - name: Check disk space
     shell: hostname
-    register: disk_space
+
+  
+    
     
