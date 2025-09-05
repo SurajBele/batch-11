@@ -22,6 +22,6 @@
     vars:
       city: "mumbai"
   - name: Check disk space
-    shell
+    shell: hostname
     register: disk_space
     
