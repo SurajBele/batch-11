@@ -4,10 +4,10 @@
   #   city: "pune"
   # vars_files:
   #  - ./var.txt
-  vars_prompt:
-    - name: city
-      prompt: enter your city
-      private: true
+  # vars_prompt:
+  #   - name: city
+  #     prompt: enter your city
+  #     private: true
 
   tasks: 
   - name: 1st-msg
