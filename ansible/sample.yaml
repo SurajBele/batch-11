@@ -21,7 +21,7 @@
       msg: welcome to "{{city}}" 
     vars:
       city: "mumbai"
-  - name: Check disk space
+  - name: execute coammand
     shell: hostname
 
   
