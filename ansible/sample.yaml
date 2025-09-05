@@ -1,7 +1,7 @@
 - name: my sample playbook
   hosts: all
-  vars: 
-    city: "pune"
+  # vars: 
+  #   city: "pune"
   # vars_files:
   #  - ./var.txt
   # vars_prompt:
