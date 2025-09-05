@@ -21,7 +21,7 @@
       msg: welcome to "{{city}}" 
     vars:
       city: "mumbai"
-  - name: execute coammand
+  - name: execute cammand
     shell: hostname
 
   
