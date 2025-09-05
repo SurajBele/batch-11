@@ -4,9 +4,9 @@
     - name: print machine name
       debug:
         msg:  "{{ansible_distribution}}"
-    - name: print 
+    - name: print name
       debug:
-        msg: "{{ansible_os_family}}"
+        msg: "{{ansible}}"
     - name: print os family
       debug:
         msg: "{{ansible_os_family}}"
