@@ -14,7 +14,7 @@
     - name: start service
       systemd:
        name: start service
-       state: started
+       state: sestarted
        enabled: true
        daemon_reload: true
 
