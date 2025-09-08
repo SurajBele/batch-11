@@ -12,7 +12,7 @@
        state: latest
       when: ansible_os_family == "Debian"
     - name: start service
-      systemd:
+      service:
        name: start service
        state: restarted
        enabled: true
