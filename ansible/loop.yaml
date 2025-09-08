@@ -2,7 +2,8 @@
   hosts: all
   tasks:
     - name: print all fruits
-      de
+      debug:
+        msg: {{}}
     - name: install apache2
       package: 
        name: apache2
