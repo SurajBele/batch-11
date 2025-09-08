@@ -1,0 +1,13 @@
+- name: using package module
+  hosts: all
+  tasks:
+    - name: install httpd
+      package:
+       name: httpd
+       state: latest
+      when: ansible_os_family == "RedHat"
+    - name: install apache2
+      package: 
+       name: apache2
+       state: latest
+      when: ansible_os_family == "Debian"
