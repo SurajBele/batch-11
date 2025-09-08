@@ -3,4 +3,5 @@
   tasks:
     - name: install httpd
       yum:
-       name:
+       name: httpd
+       
