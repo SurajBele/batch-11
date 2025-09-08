@@ -5,4 +5,6 @@
       yum:
        name: httpd
        state: latest
-    
+    - name: install apache2
+      apt:
+      
