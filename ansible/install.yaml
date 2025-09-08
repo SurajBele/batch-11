@@ -2,4 +2,5 @@
   hosts: all
   tasks:
     - name: install httpd
-      
+      yum:
+       name:
