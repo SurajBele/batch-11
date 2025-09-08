@@ -14,5 +14,6 @@
     - name: start service
       systemd:
        name: start service
+       state: started
        
 
