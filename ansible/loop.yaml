@@ -4,6 +4,7 @@
     - name: print all fruits
       debug:
         msg: "{{item}}"
+      loop:
         
     - name: install apache2
       package: 
