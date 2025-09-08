@@ -15,5 +15,6 @@
       systemd:
        name: start service
        state: started
-       
+       enabled: true
+
 
