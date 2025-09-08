@@ -15,4 +15,4 @@
     loop:
       - wget
       - tree
-      - ap
+      - apache2
