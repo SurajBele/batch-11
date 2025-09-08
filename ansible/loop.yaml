@@ -6,7 +6,8 @@
         msg: "{{item}}"
       loop:
         - apple
-        - 
+        - banana
+        - mango
     - name: install apache2
       package: 
        name: apache2
