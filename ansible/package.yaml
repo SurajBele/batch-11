@@ -3,7 +3,7 @@
   become: true
   tasks:
     - name: install httpd
-      
+      package:
        name: httpd
        state: latest
       when: ansible_os_family == "RedHat"
