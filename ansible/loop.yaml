@@ -16,4 +16,4 @@
         - wget
         - tree
         - apache2
-      
+      when: ansible_os_family == "Debian"
