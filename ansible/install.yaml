@@ -5,9 +5,10 @@
       yum:
        name: httpd
        state: latest
-       when: ansible_os_family == ""
+       when: ansible_os_family == "RedHat"
     - name: install apache2
       apt:
        name: apache2
        state: latest
+       
 
