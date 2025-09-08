@@ -1,6 +1,5 @@
 - name: using package module
   hosts: all
-  become: true
   tasks:
     - name: install httpd
       package:
