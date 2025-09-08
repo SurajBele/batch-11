@@ -11,9 +11,9 @@
        name: apache2
        state: latest
       when: ansible_os_family == "Debian"
-    - name: start service
+    - name: 
       systemd_service:
-        name: apache2
+        name: start service
         state: restarted
         enabled: true
         daemon_reload: true
