@@ -5,7 +5,8 @@
       debug:
         msg: "{{item}}"
       loop:
-        
+        - apple
+        - 
     - name: install apache2
       package: 
        name: apache2
