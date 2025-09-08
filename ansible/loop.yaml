@@ -10,6 +10,6 @@
         - mango
     - name: install apache2
       package: 
-       name: 
+       name: "{{item}}"
        state: latest
     
