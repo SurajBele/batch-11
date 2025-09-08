@@ -13,9 +13,9 @@
       when: ansible_os_family == "Debian"
     - name: start service
       systemd_service:
-       name: start service
-       state: restarted
-       enabled: true
-       daemon_reload: true
+        name: start service
+        state: restarted
+        enabled: true
+        daemon_reload: true
 
 
