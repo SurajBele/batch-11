@@ -1,4 +1,5 @@
 - name: install packages
   hosts: all
   tasks:
-    - 
+    - name: install httpd
+     
