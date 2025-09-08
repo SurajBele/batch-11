@@ -1,7 +1,8 @@
 - name: using loop module
   hosts: all
   tasks:
-    - name: print 
+    - name: print all fruits
+      de
     - name: install apache2
       package: 
        name: apache2
