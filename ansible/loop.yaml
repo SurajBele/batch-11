@@ -1,7 +1,7 @@
-- name: using package module
+- name: using loop module
   hosts: all
   tasks:
-    - name: 
+    - name: print 
     - name: install apache2
       package: 
        name: apache2
