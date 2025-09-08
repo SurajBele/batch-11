@@ -1,6 +1,6 @@
 - name: install packages
   hosts: all
-  become:
+  become: true
   tasks:
     - name: install httpd
       yum:
