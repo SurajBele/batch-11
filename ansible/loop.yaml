@@ -13,4 +13,6 @@
        name: "{{item}}"
        state: latest
     loop:
-      - 
+      - wget
+      - tree
+      - ap
