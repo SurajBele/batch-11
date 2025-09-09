@@ -17,7 +17,7 @@
     - name: block of files added
       blockinfile:
         path: /var/www/html/index.html
-      block: |
-        <h1> hello my name is suraj </h1>
-        <h2> this line 2 </h2>
-        <h3> this is a block of lines </h3>
+        block: |
+          <h1> hello my name is suraj </h1>
+          <h2> this line 2 </h2>
+          <h3> this is a block of lines </h3>
