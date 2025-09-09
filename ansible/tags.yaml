@@ -3,4 +3,4 @@
   tasks:
     - name: tag example
       debug:
-      
+        msg: ""
