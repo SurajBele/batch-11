@@ -1,4 +1,5 @@
 - name: configure server
   hosts: all
   tasks:
-    - name:
+    - name: install apache2
+      
