@@ -1,0 +1,17 @@
+- name: configure server
+  hosts: all
+  tasks:
+    - name: install apache2
+      package: 
+       name: apache2
+       state: latest
+    - name: copy file in server
+      copy:
+        src: ./index.html
+        dest: /var/www/html/index.html
+    - name: restart the service
+      systemd:
+        name: apache2
+        state: restarted
+        enabled: true      
+      
