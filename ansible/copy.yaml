@@ -5,7 +5,9 @@
       package: 
        name: apache2
        state: latest
-    - name: copy file in
+    - name: copy file in server
+      copy:
+        
 
       
       
