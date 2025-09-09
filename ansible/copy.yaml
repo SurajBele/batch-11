@@ -8,6 +8,7 @@
     - name: copy file in server
       copy:
         src: ./index.html
+        dest: 
 
       
       
