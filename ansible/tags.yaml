@@ -5,9 +5,9 @@
       debug:
         msg: "hello ansible"
       tags:
-        - task1
-        - suraj
-        - pune
+      - task1
+      - suraj
+      - pune
     - name: tag example2
       debug:
         msg: "hello ansible2"
