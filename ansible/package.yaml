@@ -13,7 +13,7 @@
       when: ansible_os_family == "Debian"
     - name: 
       systemd_service:
-        name: apache2
+        name: start service
         state: restarted
         enabled: true
         daemon_reload: true
