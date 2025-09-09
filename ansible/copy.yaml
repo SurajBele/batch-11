@@ -1,3 +1,4 @@
 - name: configure server
-  hosts: localhost
-  
+  hosts: all
+  tasks:
+    - name:
