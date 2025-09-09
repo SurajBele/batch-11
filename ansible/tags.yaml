@@ -1,4 +1,5 @@
 - name: tag playbook
   hosts: all
   tasks:
-    - name: 
+    - name: tag example
+     debug:
