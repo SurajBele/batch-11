@@ -16,6 +16,6 @@
         enabled: true      
     - name: lineinfile
       lineinfile:
-      path: /var/www/html/index.html
-      regexp: '^<h1>'
-      line: '<h1> hello there this cloud </h1>'
+        path: /var/www/html/index.html
+        regexp: '^<h1>'
+        line: '<h1> hello there this cloud </h1>'
