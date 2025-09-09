@@ -5,3 +5,5 @@
       debug:
         msg: "hello ansible"
       tags:
+        - dev
+        - 
