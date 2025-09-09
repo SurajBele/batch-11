@@ -14,4 +14,11 @@
         name: apache2
         state: restarted
         enabled: true      
-      -
+    - name: block of files added
+      blockinfile:
+        path: /var/www/html/index.html
+        marker: "<!-- {mark} ANSIBLE MANAGED BLOCK -->"
+      block: |
+        <h1> hello my name is suraj </h1>
+        <h2> this line 2 </h2>
+        <h3> this is block of lines </h3>
