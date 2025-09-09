@@ -8,3 +8,10 @@
         - dev
         - suraj
         - pune
+    - name: tag example
+      debug:
+        msg: "hello ansible"
+      tags:
+        - dev
+        - suraj
+        - pune
