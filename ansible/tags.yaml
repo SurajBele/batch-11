@@ -6,4 +6,5 @@
         msg: "hello ansible"
       tags:
         - dev
-        - 
+        - suraj
+        - pune
