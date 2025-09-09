@@ -3,4 +3,5 @@
   tasks:
     - name: tag example
       debug:
-        msg: ""
+        msg: "hello ansible"
+      tags:
