@@ -12,5 +12,6 @@
     - name: restart the service
       systemd:
         name: apache2
-        state: rest      
+        state: restarted
+        enabled: true      
       
