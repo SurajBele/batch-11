@@ -12,6 +12,6 @@
       debug:
         msg: "hello ansible2"
       tags:
-        - task2
-        - suraj
-        - pune2
+      - task2
+      - suraj
+      - pune2
