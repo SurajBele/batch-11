@@ -11,5 +11,6 @@
         dest: /var/www/html/index.html
     - name: restart the service
       systemd:
-        name      
+        name: apache2
+        state: rest      
       
