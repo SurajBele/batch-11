@@ -1,1 +1,3 @@
 - name: deploy roles 
+  hosts: all
+  roles:
