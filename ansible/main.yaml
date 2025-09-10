@@ -1,4 +1,4 @@
 - name: deploy roles 
   hosts: all
   roles:
-    - roles/weserver_role
+    - weserver_role
