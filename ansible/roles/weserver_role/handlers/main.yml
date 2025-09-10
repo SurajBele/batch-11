@@ -1,6 +1,6 @@
 systemd_service:
-        name: apache2
-        state: restarted
-        enabled: true
-        daemon_reload: true
-      when: ansible_os_family == "Debian"
+  name: apache2
+  state: restarted
+  enabled: true
+  daemon_reload: true
+when: ansible_os_family == "Debian"
