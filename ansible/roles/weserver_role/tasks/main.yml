@@ -1,10 +1,11 @@
-- name: install httpd
-  package:
-    name: httpd
-    state: latest
-  when: ansible_os_family == "RedHat"
-- name: install apache2
+- name: install server
   package: 
-    name: apache2
+    name: "{{app}}"
     state: latest
   when: ansible_os_family == "Debian"
+- name: copy file in server
+  copy:
+    src: index.html
+    dest: /var/www/html/index.html
+  notify:
+    - restart service

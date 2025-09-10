@@ -1,2 +1,3 @@
 ---
 # vars file for weserver_role
+app: apache2
